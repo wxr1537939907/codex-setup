@@ -1,6 +1,6 @@
 # Codex CLI 第三方 API 配置工具
 
-为 OpenAI Codex CLI 快速配置第三方兼容 API（如 OpenRouter、自建代理等），只需填入 URL 和 Key 即可一键完成。
+为 OpenAI Codex CLI 快速配置第三方兼容 API（如 azapi.com.cn、自建代理等），只需填入 URL 和 Key 即可一键完成。
 
 ---
 
@@ -31,9 +31,10 @@
 ### 方式一：双击运行（推荐 Windows 用户）
 
 1. 将 `setup.bat` 和 `codex_config.py` 放在**同一文件夹**
-2. 双击 `setup.bat`
-3. 按提示输入 API Base URL 和 API Key
-4. 按 Enter 退出
+2. 先双击运行`setup.bat`
+3. 再双击运行`codex_config.py`
+4. 按提示输入 API Base URL 和 API Key
+5. 按 Enter 退出
 
 ### 方式二：命令行运行
 
